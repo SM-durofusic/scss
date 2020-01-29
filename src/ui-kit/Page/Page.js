@@ -10,13 +10,10 @@ const pageStyleGlamor = css({
 const Page = ({ cx, children }) => {
   return (
     <div
-      className={classnames(
-        {
-          [styles.page]: true,
-          [cx]: cx
-        },
-        "page-component"
-      )}
+      className={classnames({
+        [styles.page]: true,
+        [cx]: cx
+      })}
     >
       {children}
     </div>

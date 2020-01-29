@@ -1,7 +1,7 @@
 import { css } from "glamor";
 
 const researchCloudOverviewPageStyle = css({
-  border: "5px solid blue !important"
+  border: "5px solid blue"
 });
 
 export default researchCloudOverviewPageStyle;
