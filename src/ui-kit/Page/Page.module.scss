@@ -1,0 +1,5 @@
+@import "../../global-styles/mixins";
+
+.page {
+  @include page;
+}
